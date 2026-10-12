@@ -25,7 +25,7 @@ const Report = () => {
                   <Paragraph Para="Get the distilled insights, strategic frameworks, and real-world case studies our experts use to guide the world's leading companies. Straight to your inbox." />
                 </div>
              
-              <div className="mt-7.5"><Button Button="Explore Our Book" link="/Home"/></div>
+              <div className="mt-7.5"><Button Button="Explore Our Book" link="/"/></div>
             </div>
           </div>
         </div>
