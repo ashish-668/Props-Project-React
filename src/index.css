@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-lite-white: #FFFFFF0F;
+  --text-custom-5xl: 50px;
+  --leading-130: 130%;
+  --leading-122: 122%;
+  --leading-157: 157%;
+}
