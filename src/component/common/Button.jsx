@@ -1,8 +1,21 @@
+
 import { Link } from "react-router-dom";
 
-const Button = ({ Button, link }) => {
+const Button = ({ variant = "default", Button, link = "/" }) => {
+  const variants = {
+    default: "bg-white/10 text-white",
+    primary: "bg-red-500 text-white",
+    secondary: "bg-blue-500 text-white",
+    outline: "border border-white text-white",
+  };
+
   return (
-    <Link to={link} className="bg-white/6 text-white py-4 px-31.5 text-base rounded-[114px]">
+    <Link
+      to={link}
+      className={`py-4 px-8 text-base rounded-full ${
+        variants[variant] || variants.default
+      }`}
+    >
       {Button}
     </Link>
   );
