@@ -5,8 +5,6 @@ const Button = ({ variant = "default", Button, link = "/" }) => {
   const variants = {
     default: "bg-white/10 text-white",
     primary: "bg-red-500 text-white",
-    secondary: "bg-blue-500 text-white",
-    outline: "border border-white text-white",
   };
 
   return (
