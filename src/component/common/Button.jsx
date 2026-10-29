@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Button = ({ variant = "default", Button, link = "/" }) => {
   const variants = {
     default: "bg-white/10 text-white",
-    primary: "bg-red-500 text-white",
+    primary: "bg-white/30 text-white/90",
   };
 
   return (

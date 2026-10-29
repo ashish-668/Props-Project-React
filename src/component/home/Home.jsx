@@ -25,7 +25,7 @@ const Home = () => {
                 </div>
              
               <div className="mt-7.5 mb-10"><Button Button="Join the Community" link="/podcast"/></div>
-              <div className="mt-7.5"><Button variant="primary" Button="Text" link="/podcast"/></div>
+              <div className="mt-7.5"><Button variant="primary" Button="Community(Variant)" link="/podcast"/></div>
             </div>
           </div>
         </div>
